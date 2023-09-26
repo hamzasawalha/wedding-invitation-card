@@ -306,9 +306,7 @@
     /* .card:hover .cover{
         transform: skewY(90deg)
     } */
-    .cover{
-        width: 309px;
-    }
+  
     #timer {  
         margin-top: 20px;
         margin-left: 10px;
