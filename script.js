@@ -29,17 +29,16 @@ function openCard(){
     }
 }
 function playSound(){
-    window.addEventListener("DOMContentLoaded", event => {
+    window.addEventListener("click", event => {
         const audio = document.querySelector("audio");
         audio.volume = 0.2;
         audio.play();
-      });
+    });
 }
-
     playSound();
     updateTimer();
     setTimeout(function(){
     openCard();
-    },3000);
+
+    },4000);
   setInterval('updateTimer()', 1000 );
-  setInterval('playSound()',  253800);
